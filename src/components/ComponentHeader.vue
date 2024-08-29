@@ -1,12 +1,16 @@
 <script setup>
-import {ref} from 'vue'
+import {computed, ref,defineProps} from 'vue'
 import Logo from '../assets/logo.svg'
+
+
 const isActive = ref(false)
+
+
 
 </script>
 <template>
     
-        <header className="w-full shadow " >
+        <header class="w-full shadow">
             <nav class="flex p-4 items-center w-full justify-between bg-white">
                     <div class="flex justify-between w-full lg:w-auto items-center">
                         <span class="">
